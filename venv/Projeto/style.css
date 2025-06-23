@@ -67,7 +67,7 @@ p {
 .imagem-tenis {
     margin: 0;
     padding: 0;
-    width: 750px;
+    width: 550px;
     transform: rotate(-23deg);
 }
 
@@ -86,7 +86,8 @@ p {
 
 .caixa-botões {
     z-index: 2;
-    position: relative;
+    position:fixed;
+    bottom: 50px;
     display: flex;
     gap: 10px;
 }
@@ -109,6 +110,7 @@ p {
 
 .cinza {
     background: rgb(121, 120, 120);
+    
 }
 
 .cinzaa {
